@@ -21,6 +21,12 @@ body {
   text-decoration: none;
   line-height: 1.17;
 }
+.link_page:hover {
+  color: var(--brand-color);
+}
+.link_page:focus {
+  color: var(--brand-color);
+}
 .list-item {
   list-style-type: none;
 }
@@ -59,12 +65,8 @@ body {
   display: grid;
   place-items: center;
   background-color: var(--section-color);
-  width: 1600px;
-  height: 600px;
 }
 .main_tittle {
-  width: 696px;
-  height: 120px;
   font-family: 'roboto';
   font-weight: 900;
   font-size: 44px;
@@ -75,8 +77,6 @@ body {
   text-align: center;
 }
 .btn-services {
-  width: 261px;
-  height: 50px;
   font-family: 'roboto';
   font-weight: 700;
   font-size: 16px;
@@ -85,8 +85,12 @@ body {
   cursor: pointer;
   background-color: var(--brand-color);
   color: var(--main-color);
-  border-radius: 4%;
+  border-radius: 4px;
   border: none;
+  padding: 10px 32px;
+}
+.btn-services:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
 }
 .tittle-description {
   font-family: 'roboto';
@@ -127,7 +131,6 @@ body {
 }
 /* seccion footer */
 .background-footer {
-  height: 252px;
   background-color: var(--section-color);
 }
 .link-place {
@@ -141,6 +144,9 @@ body {
 .link-place:hover {
   color: var(--brand-color);
 }
+.link-place:focus {
+  color: var(--brand-color);
+}
 .mail-footer {
   font-family: 'roboto';
   font-weight: 400;
@@ -152,6 +158,9 @@ body {
 .mail-footer:hover {
   color: var(--brand-color);
 }
+.mail-footer:focus {
+  color: var(--brand-color);
+}
 .phone-footer {
   font-family: 'roboto';
   font-weight: 400;
@@ -161,6 +170,9 @@ body {
   color: var(--letter-color);
 }
 .phone-footer:hover {
+  color: var(--brand-color);
+}
+.phone-footer:focus {
   color: var(--brand-color);
 }
 /* inicio de portafolio */
