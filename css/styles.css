@@ -21,10 +21,9 @@ body {
   text-decoration: none;
   line-height: 1.17;
 }
-.link_page:hover {
-  color: var(--brand-color);
-}
-.link_page:focus {
+.link_page:hover,
+.link_page:focus,
+.link_page:active {
   color: var(--brand-color);
 }
 .list-item {
@@ -39,12 +38,9 @@ body {
   text-decoration: none;
   color: var(--tittle-color);
 }
-.nav-link:hover {
-  color: var(--brand-color);
-}
-.nav-link:focus {
-  color: var(--brand-color);
-}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
 .nav-link.current {
   color: var(--brand-color);
 }
@@ -56,7 +52,9 @@ body {
   text-decoration: none;
   color: var(--letter-color);
 }
-.contact:hover {
+.contact:hover,
+.contact:focus,
+.contact:active {
   color: var(--brand-color);
 }
 /* sección main */
@@ -89,8 +87,10 @@ body {
   border: none;
   padding: 10px 32px;
 }
-.btn-services:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+.btn-services:hover,
+.btn-services:focus,
+.btn-services:active {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .tittle-description {
   font-family: 'roboto';
@@ -141,10 +141,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-.link-place:hover {
-  color: var(--brand-color);
-}
-.link-place:focus {
+.link-place:hover,
+.link-place:focus,
+.link-place:active {
   color: var(--brand-color);
 }
 .mail-footer {
@@ -155,10 +154,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--letter-color);
 }
-.mail-footer:hover {
-  color: var(--brand-color);
-}
-.mail-footer:focus {
+.mail-footer:hover,
+.mail-footer:focus,
+.mail-footer:active {
   color: var(--brand-color);
 }
 .phone-footer {
@@ -169,10 +167,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--letter-color);
 }
-.phone-footer:hover {
-  color: var(--brand-color);
-}
-.phone-footer:focus {
+.phone-footer:hover,
+.phone-footer:focus,
+.phone-footer:active {
   color: var(--brand-color);
 }
 /* inicio de portafolio */
@@ -189,7 +186,9 @@ body {
   border-radius: 4px;
   border: none;
 }
-.btn-menu:hover {
+.btn-menu:hover,
+.btn-menu:focus,
+.btn-menu:active {
   background-color: var(--brand-color);
   color: var(--main-color);
 }
